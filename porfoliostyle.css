@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+    background-color: black;
+    color: white;
+    margin:0;
+}
+.navbar {
+    justify-content: space-between;
+    background-color: aqua;
+    color:black;
+    display:flex;
+    flex-direction: row;
+}
+.navbar-left {
+    padding-left: 20px;
+}
+.navbar-right {
+    display:flex;
+    flex-direction: row;
+    padding: 30px;
+    justify-content: center;
+}
+.navbar-right:hover{
+   color:red;
+}
+.logo-img{
+    height:75px;
+    padding:20px;
+}
+.a-element {
+    padding: 10px;
+    border: 2px solid white;
+    margin:10px;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    height: 85vh;
+}
+.home-left{
+   width: 50vw;
+   justify-content: right;
+   padding-left: 200px;
+}
+.home-right{
+    width: 50vw;
+    padding-left: 200px;
+ }
+ .services{
+    text-align: center;
+ }
+ .service-sub-cont{
+    display:flex;
+    flex-direction: row;
+ }
+ .service-card{
+    padding:20px;
+    border:2px solid white;
+    margin:50px;
+    width:50vw;
+ }
+ .services-h1{
+    color:rgb(37, 222, 161);
+    font-family:'Encode Sans Condensed', sans-serif;
+    font-size: 50px;
+    letter-spacing:2px;
+    word-spacing:5px;
+    font-style: italic;
+ }
+ .sc-h1{
+    font-size:30px;
+    font-family:'Courier New', Courier, monospace;
+    color:rgb(25, 104, 104);
+    font-style: italic;
+ }
+ .sc-p{
+    font-size:20px;
+    font-family:'Dancing Script', cursive;
+ }
+ .contact{
+    text-align:center;
+ }
+ .contact-info{
+    font-family:'Montserrat', sans-serif;
+    font-size : 20px;
+ }
+ .social-icon-img{
+    height:50px;
+    padding:20px;
+ }
+
+

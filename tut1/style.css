@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&family=Prata&display=swap');
+
+.my-container{
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+}
+.my-fieldset{
+    width:300px;
+    height:500px;
+}
